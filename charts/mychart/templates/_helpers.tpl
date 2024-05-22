@@ -1,5 +1,6 @@
 {{/*
 Expand the name of the chart.
+Just some comment to test
 */}}
 {{- define "chart-stub-db.name" -}}
 {{- default .Chart.Name .Values.nameOverride | trunc 63 | trimSuffix "-" }}

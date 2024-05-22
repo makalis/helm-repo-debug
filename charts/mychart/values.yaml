@@ -20,9 +20,9 @@ services:
     type: ClusterIP
     clusterIP: None
     ports:
-      rest: 8080
-      sql: 10800
-      thin: 10900
+      rest: 8081
+      sql: 10802
+      thin: 10903
       memcached: 11211
     sessionAffinity: None
   memcached:
