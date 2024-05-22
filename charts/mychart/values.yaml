@@ -11,10 +11,10 @@ services:
   main:
     type: ClusterIP
     ports:
-      rest: 8080
-      sql: 10800
-      thin: 10900
-      memcached: 11211
+      rest: 808
+      sql: 20800
+      thin: 40900
+      memcached: 1123
     sessionAffinity: None
   headless:
     type: ClusterIP
