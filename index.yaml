@@ -2,6 +2,15 @@ apiVersion: v1
 entries:
   makalis-debug:
   - apiVersion: v2
+    appVersion: "12345"
+    created: "2024-09-18T10:47:53.068937227Z"
+    digest: d7b0a86d2e4491c71941c841d02c2c2acd34815273111c0420c432950541389f
+    name: makalis-debug
+    type: application
+    urls:
+    - https://github.com/makalis/helm-repo-debug/releases/download/makalis-debug-0.3.0/makalis-debug-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
     appVersion: VERSION_FULL
     created: "2024-05-22T13:46:18.117579497Z"
     digest: 54b889fabbaa8a806b52e049540c9a31975f5a39b157120017fa4b35ee55a4a4
@@ -19,4 +28,4 @@ entries:
     urls:
     - https://makalis.github.io/helm-repo-debug/makalis-debug-0.1.0.tgz
     version: 0.1.0
-generated: "2024-05-22T13:46:18.117592191Z"
+generated: "2024-09-18T10:47:53.06895981Z"
